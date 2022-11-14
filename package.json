@@ -1,18 +1,13 @@
 {
-  "name": "news-app-back",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Maximilian Schwarzmüller / Academind GmbH",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "next": "latest",
+    "axios": "latest"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "devDependencies": {}
 }
