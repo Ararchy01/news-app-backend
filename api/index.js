@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/news", async (req, res) => {
+app.get("/api/news", async (req, res) => {
   console.log("Fetching News...");
   try {
     const news = await fetch(
@@ -18,7 +18,7 @@ app.get("/news", async (req, res) => {
   }
 });
 
-app.get("/weather", async (req, res) => {
+app.get("/api/weather", async (req, res) => {
   console.log("Fetching Weather...");
   try {
     const weather = await fetch(
